@@ -1,0 +1,20 @@
+# 忽略所有数据和结果文件夹
+data/
+results/
+
+# 忽略常见的数据文件格式
+*.csv
+*.tsv
+*.txt
+*.xlsx
+*.fastq
+*.fastq.gz
+*.bam
+*.sam
+*.h5ad
+
+# 忽略 Python 缓存和系统文件
+__pycache__/
+*.pyc
+.DS_Store
+.ipynb_checkpoints/
